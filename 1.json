@@ -1,0 +1,25 @@
+{ "questions" :
+  [
+    {"question" : "Ask the question \"How old are you?\" without a carriage return.",
+     "answer" : "print \"How old are you?\"",
+     "info" : "\"puts\" adds a newline after executing, \"print\" does not."},
+
+    {"question" : "Capture the user\\'s input with an \"age\" variable.",
+     "answer" : "age = gets.chomp()"},
+
+    {"question" : "age = 18\n\nMake \"age\" a string",
+     "answer" : "age.to_s"},
+
+    {"question" : "Make \"age\" an integer",
+     "answer" : "age.to_i"},
+
+    {"question" : "Make \"age\" a float",
+     "answer" : "age.to_f"},
+
+    {"question" : "Set the variables \"x\", \"y\", \"z\" to the values 1, 2, 3 in a single line.",
+     "answer" : "x, y, z = [1, 2, 3]"},
+
+    {"question" : "Set the variables \"x\", \"y\", \"z\" to the values in arr = [1, 2, 3] in a single line.",
+     "answer" : "x, y, z = arr"}
+  ]
+}
