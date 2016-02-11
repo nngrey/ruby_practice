@@ -1,0 +1,47 @@
+{ "questions" :
+  [
+    {"question" : "Pass the file text.txt to ARGV when you call the program test.rb",
+     "answer" : "ruby test.rb text.txt",
+     "info" : "cat text.txt >> Some text."},
+
+    {"question" : "Assign the variable \"file\" to the name of the text file",
+     "answer" : "file = ARGV.first",
+     "info" : "puts file >> text.txt"},
+
+    {"question" : "Assign the variable \"contents\" to the the text file",
+     "answer" : "contents = File.open(file)",
+     "info" : "puts file >> #<File:0x007ffebd0a1798>; open(file) also works"},
+
+    {"question" : "Print the contents of the file to the terminal",
+     "answer" : "print contents.read",
+     "info" : ">> Some text."},
+
+    {"question" : "Open text.txt in write mode and assign it to \"target\".",
+     "answer" : "target = File.open(file, \'w\')",
+     "info" : "modes: \'r\' - read only, default, \'w\' - write only, \'a\' - append only"},
+
+    {"question" : "Write \"More text.\" to text.txt",
+     "answer" : "target.write(\"More text.\")" ,
+     "info" : "Existing text will be overwritten"},
+
+    {"question" : "Close the file.",
+     "answer" : "target.close",
+     "info" : "The text must be closed before it can be read again."},
+
+    {"question" : "Print the contents of the file to the terminal",
+     "answer" : "print target.read",
+     "info" : ">> More text."},
+
+    {"question" : "Open text.txt in append mode and assign it to \"contents\".",
+     "answer" : "contents = File.open(file, \'a\')",
+     "info" : "modes: \'r\' - read only, default, \'w\' - write only, \'a\' - append only"},
+
+    {"question" : "Append \"Even more text.\" on a new line to text.txt",
+     "answer" : "contents.write(\"\nEven more text.\")" ,
+     "info" : ">> More text. Even more text."},
+
+    {"question" : "END",
+     "answer" : "END",
+     "info" : "********* 3.json is next **********\n"}
+  ]
+}

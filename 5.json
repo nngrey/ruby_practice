@@ -1,0 +1,59 @@
+{ "questions" :
+  [
+    {"question" : "puts 'hi' five times",
+     "answer" : "5.times { puts 'hi' } ",
+     "info" : ""},
+
+    {"question" : "Select the last item of arr = [1, 2, 3]",
+     "answer" : "arr[-1]",
+     "info" : "Also arr[2]"},
+
+    {"question" : "Multiply each element of arr = [1, 2, 3] by 2",
+     "answer" : "arr.map { |x| x * 2 }",
+     "info" : ""},
+
+    {"question" : "Multiply each element of arr = [1, 2, 3] by 2 and update arr",
+     "answer" : "arr.map! { |x| x * 2 }",
+     "info" : ""},
+
+    {"question" : "Choose the even elements of arr = [1, 2, 3, 4]",
+     "answer" : "[1, 2, 3, 4].select {|x| x % 2 == 0}",
+     "info" : "\"just some words\""},
+
+    {"question" : "Delete the odd elements of arr = [1, 2, 3, 4]",
+     "answer" : "[1, 2, 3, 4].delete_if{|i| i % 2 != 0 }",
+     "info" : "\"just some words\""},
+
+    {"question" : "Get the keys of hashy = {'a' => 1, 'b' => 2, 'c' => 3}",
+     "answer" : "hashy.keys",
+     "info" : ""},
+
+    {"question" : "Get the values of hashy = {'a' => 1, 'b' => 2, 'c' => 3}",
+     "answer" : "hashy.values",
+     "info" : ""},
+
+    {"question" : "Add a value for gender to the person hash",
+     "answer" : "person['gender'] = 'male'",
+     "info" : "{'name' => 'Zed', 'age' => 39, 'gender' => 'male'}"},
+
+    {"question" : "A class must have?",
+     "answer" : "state and behavior" ,
+     "info" : "A class must have some kind of state that defines the attributes of its instances. \nIn the case of a simple rectangle, this could simply be its length and breadth. \nA class must also have behavior. This is achieved by the programmer adding methods to the class that interact with its state."},
+
+    {"question" : "Create a lambda that increments any number passed to it by one.",
+     "answer" : " num = lambda { |n| n + 1 }",
+     "info" : "A lambda is just a function without a name"},
+
+    {"question" : "Pass a block that increments a number by one to the method \"add\".",
+     "answer" : "add() { |x| x + 1 }" ,
+     "info" : "One of the most common uses for a lambda involves passing exactly one block to a method"},
+
+    {"question" : "A module only has?",
+     "answer" : "behavior",
+     "info" : "Modules contain methods that you can include in any number of classes"},
+
+    {"question" : "END",
+     "answer" : "END",
+     "info" : "********* 6.json is next **********\n"}
+  ]
+}

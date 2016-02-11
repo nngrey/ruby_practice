@@ -1,0 +1,55 @@
+{ "questions" :
+  [
+    {"question" : "Open text.txt in read only mode and set it to 'text'",
+     "answer" : "text = File.open('text.txt', 'r')",
+     "info" : "default; starts at the beginning of the file; 'r+' read-write"},
+
+    {"question" : "Open text.txt in write only mode and set it to 'text'",
+     "answer" : "text = File.open('text.txt', 'w')",
+     "info" : "Truncates existing file to zero length or creates a new file; 'w+' read-write"},
+
+    {"question" : "Open text.txt in append only mode and set it to 'text'",
+     "answer" : "text = File.open('text.txt', 'a')",
+     "info" : "Starts at end of file if file exists; 'a+' read-write"},
+
+    {"question" : "Read text = File.open('text.txt', 'r')",
+     "answer" : "text.read",
+     "info" : ""},
+
+    {"question" : "Return to the beginning after text.read",
+     "answer" : "text.rewind",
+     "info" : ""},
+
+    {"question" : "Read the first 10 characters of text",
+     "answer" : "text.read(10)",
+     "info" : ""},
+
+    {"question" : "Write 'hi' to text = File.open('text.txt', 'w')",
+     "answer" : "text.write('hi')",
+     "info" : "text.close"},
+
+    {"question" : "Append 'bye' to text = File.open('text.txt', 'a')",
+     "answer" : "text.write('bye')",
+     "info" : "text.close"},
+
+    {"question" : "Create a block that adds two numbers and set it to the variable add",
+     "answer" : "add = lambda {|a, b| return a + b }",
+     "info" : "A block is code that you can store in a variable and run on demand."},
+
+    {"question" : "Run the add block ( add = lambda {|a, b| return a + b } )",
+     "answer" : "add.call(5, 6)",
+     "info" : ""},
+
+    {"question" : "Use a shortcut to create a block that adds two numbers and set it to 'add'",
+     "answer" : "add = -> {|a, b| return a + b }" ,
+     "info" : ""},
+
+    {"question" : "Find the superclass of Float",
+     "answer" : "Float.superclass",
+     "info" : ""},
+
+    {"question" : "END",
+     "answer" : "END",
+     "info" : "********* 6.json is next **********\n"}
+  ]
+}

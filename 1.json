@@ -4,11 +4,13 @@
      "answer" : "print \"How old are you?\"",
      "info" : "\"puts\" adds a newline after executing, \"print\" does not."},
 
-    {"question" : "Capture the user\\'s input with an \"age\" variable.",
-     "answer" : "age = gets.chomp()"},
+    {"question" : "Capture the user's input with an \"age\" variable.",
+     "answer" : "age = STNDIN.gets.chomp()",
+     "info" : "\"gets\" first tries to read the contents of files passed in through ARGV. If there are no files in ARGV, it will use standard input instead, at which point it's the same as STDIN.gets"},
 
     {"question" : "age = 18\n\nMake \"age\" a string",
-     "answer" : "age.to_s"},
+     "answer" : "age.to_s",
+     "info" : ""},
 
     {"question" : "Make \"age\" an integer",
      "answer" : "age.to_i"},
@@ -17,9 +19,24 @@
      "answer" : "age.to_f"},
 
     {"question" : "Set the variables \"x\", \"y\", \"z\" to the values 1, 2, 3 in a single line.",
-     "answer" : "x, y, z = [1, 2, 3]"},
+     "answer" : "x, y, z = 1, 2, 3",
+     "info" : "Or: x, y, z = [1, 2, 3]"},
 
     {"question" : "Set the variables \"x\", \"y\", \"z\" to the values in arr = [1, 2, 3] in a single line.",
-     "answer" : "x, y, z = arr"}
+     "answer" : "x, y, z = arr"},
+
+    {"question" : "What is the variable for the argument vector?",
+     "answer" : "ARGV",
+     "info" : "ARGV, the argument vector, is a variable that contains the arguments passed to a program through the command line. It is an instance of the Array class and has access to all the array methods. Pronounced Arg-V"},
+
+    {"question" : "Pass the values 1, 2, 3 to ARGV when you call the program test.rb",
+     "answer" : "ruby test.rb 1, 2, 3"},
+
+    {"question" : "Set the variables \"x\", \"y\", \"z\" in test.rb to the values to the values that have been passed",
+     "answer" : "x, y, z = ARGV"},
+
+    {"question" : "END",
+     "answer" : "END",
+     "info" : "********* 2.json is next **********\n"}
   ]
 }

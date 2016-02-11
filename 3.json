@@ -1,0 +1,55 @@
+{ "questions" :
+  [
+    {"question" : "Use one word for the arguments arg1, arg2",
+     "answer" : "*args",
+     "info" : "def method( *args); The splat operator is used to handle methods which have a variable parameter list."},
+
+    {"question" : "Set contents - contents = File.open(file) - to the 5th character",
+     "answer" : "contents.seek(5)",
+     "info" : ""},
+
+    {"question" : "Set contents back to the start of the stream",
+     "answer" : "contents.rewind",
+     "info" : ""},
+
+    {"question" : "Create a heredoc with the word \"there\"",
+     "answer" : "<<END there END",
+     "info" : "A \"heredoc\" is used to create a multi-line string"},
+
+    {"question" : "Create and array of letters from \"word\"",
+     "answer" : "word.split('')",
+     "info" : "word.split() = [word]"},
+
+    {"question" : "Create an array of words from str = \"Some words\"",
+     "answer" : "str.split(' ')" ,
+     "info" : "str.split() = ['S', 'o', 'm', 'e', ' ', ...]"},
+
+    {"question" : "Alphabetize arr = ['do', 're', 'me']",
+     "answer" : "arr.sort",
+     "info" : "[9, 1, 4].sort = [1, 4, 9]"},
+
+    {"question" : "Maintain the array's new order",
+     "answer" : "arr = arr.sort",
+     "info" : "['do', 'me', 're']"},
+
+    {"question" : "Remove the first element from arr and set it to \"x\"",
+     "answer" : "x = arr.shift",
+     "info" : "x = do"},
+
+    {"question" : "arr.count",
+     "answer" : "2" ,
+     "info" : "['me', 're']"},
+
+    {"question" : "Remove the last element from arr and set it to \"y\"",
+     "answer" : "y = arr.pop",
+     "info" : "y = re"},
+
+    {"question" : "arr.count",
+     "answer" : "1" ,
+     "info" : "['me']"},
+
+    {"question" : "END",
+     "answer" : "END",
+     "info" : "********* 4.json is next **********\n"}
+  ]
+}

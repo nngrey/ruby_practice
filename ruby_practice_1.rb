@@ -1,7 +1,7 @@
 require 'colorize'
 require 'json'
-filename = ARGV.first
-file = File.read(filename)
+
+file = File.read( ARGV.first )
 data_hash = [JSON.parse(file)]
 @questions = data_hash[0]["questions"]
 
@@ -20,8 +20,10 @@ def main_menu
 end
 
 def check( input, answer, info )
-  if input == answer
+  if input == answer && answer != "END"
     puts "\n  Correct!".light_green
+  elsif answer == "END"
+    print ""
   else
     puts "\n  ***Incorrect***".light_red
     puts "\n  The correct answer is:".light_green
