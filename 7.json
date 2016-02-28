@@ -1,12 +1,12 @@
 { "questions" :
   [
-    {"question" : "Open text.txt in read only mode and set it to 'text'",
-     "answer" : "text = File.open('text.txt', 'r')",
-     "info" : "default; starts at the beginning of the file; 'r+' read-write"},
+    {"question" : "What kind of method is 'new' in a = Array.new([1, 3, 2])",
+     "answer" : "class",
+     "info" : "When a method gets called on the class itself, as in the case of 'new', it’s called a class method."},
 
-    {"question" : "Open text.txt in write only mode and set it to 'text'",
-     "answer" : "text = File.open('text.txt', 'w')",
-     "info" : "Truncates existing file to zero length or creates a new file; 'w+' read-write"},
+    {"question" : "What kind of method is 'length' in arr.length (arr = [1,2,3])",
+     "answer" : "instance",
+     "info" : "A method called on an instance of a class is called an instance method."},
 
     {"question" : "Open text.txt in append only mode and set it to 'text'",
      "answer" : "text = File.open('text.txt', 'a')",
@@ -62,7 +62,7 @@
 
     {"question" : "Use map and a symbol to downcase %w[A B C]",
      "answer" : "%w[A B C].map { &:downcase }",
-     "info" : "https://stackoverflow.com/questions/1217088/what-does-mapname-mean-in-ruby; 'pretzel colon' is misleading. There is no '&:' in ruby. The '&' is a 'unary ampersand operator' with a pushed together :symbol. If anything, it's a 'pretzel symbol'"},
+     "info" : "https://stackoverflow.com/questions/1217088/what-does-mapname-mean-in-ruby"},
 
     {"question" : "END",
      "answer" : "END",

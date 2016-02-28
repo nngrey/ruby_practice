@@ -32,7 +32,7 @@
     {"question" : "Pass the values 1, 2, 3 to ARGV when you call the program test.rb",
      "answer" : "ruby test.rb 1, 2, 3"},
 
-    {"question" : "Set the variables \"x\", \"y\", \"z\" in test.rb to the values to the values that have been passed",
+    {"question" : "Set the variables \"x\", \"y\", \"z\" in test.rb to the values that have been passed",
      "answer" : "x, y, z = ARGV"},
 
     {"question" : "END",
