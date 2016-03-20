@@ -17,20 +17,20 @@
      "info" : "A \"heredoc\" is used to create a multi-line string"},
 
     {"question" : "Create and array of letters from \"word\"",
-     "answer" : "word.split('')",
-     "info" : "word.split() = [word]"},
+     "answer" : "'word'.split('')",
+     "info" : "word.split() = ['w', 'o', 'r', 'd']"},
 
     {"question" : "Create an array of words from str = \"Some words\"",
      "answer" : "str.split(' ')" ,
-     "info" : "str.split() = ['S', 'o', 'm', 'e', ' ', ...]"},
+     "info" : "str.split() = ['some', 'words']"},
 
     {"question" : "Alphabetize arr = ['do', 're', 'me']",
      "answer" : "arr.sort",
      "info" : "[9, 1, 4].sort = [1, 4, 9]"},
 
     {"question" : "Maintain the array's new order",
-     "answer" : "arr = arr.sort",
-     "info" : "['do', 'me', 're']"},
+     "answer" : "arr.sort!",
+     "info" : "Or arr = arr.sort => ['do', 'me', 're']"},
 
     {"question" : "Remove the first element from arr and set it to \"x\"",
      "answer" : "x = arr.shift",

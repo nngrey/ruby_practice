@@ -37,7 +37,7 @@
      "info" : "modes: \'r\' - read only, default, \'w\' - write only, \'a\' - append only"},
 
     {"question" : "Append \"Even more text.\" on a new line to text.txt",
-     "answer" : "contents.write(\"\nEven more text.\")" ,
+     "answer" : "contents.write(\"Even more text.\")" ,
      "info" : ">> More text. Even more text."},
 
     {"question" : "END",

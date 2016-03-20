@@ -1,0 +1,11 @@
+{ "questions" :
+  [
+    {"question" : "How many l\'s are in 'hello'?",
+     "answer" : "'hello'.count('l')",
+     "info" : "count can also be used with arrays"},
+
+    {"question" : "END",
+     "answer" : "END",
+     "info" : "********* 9.json is next **********\n"}
+  ]
+}

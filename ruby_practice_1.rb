@@ -15,11 +15,12 @@ def main_menu
     puts question.yellow
     puts
     input = STDIN.gets.chomp
-    check( input, answer, info )
+    check( input, answer )
+    puts "\n  #{ info }".light_green
   end
 end
 
-def check( input, answer, info )
+def check( input, answer )
   if input == answer && answer != "END"
     puts "\n  Correct!".light_green
   elsif answer == "END"
@@ -28,8 +29,12 @@ def check( input, answer, info )
     puts "\n  ***Incorrect***".light_red
     puts "\n  The correct answer is:".light_green
     puts "\n      #{ answer }"
+    puts
+    puts "Try again."
+    puts
+    input = STDIN.gets.chomp
+    check( input, answer )
   end
-  puts "\n  #{ info }".light_green
 end
 
 main_menu
