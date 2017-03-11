@@ -1,2 +1,2 @@
 # ruby_practice
-A tutorial for practicing common ruby methods
+A commandline tutorial I built for practicing common ruby methods
